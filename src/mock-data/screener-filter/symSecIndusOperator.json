@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Equals",
+    "symbol": "=",
+    "action": "SYM_SEC_INDUS"
+  },
+  {
+    "name": "Not equals",
+    "symbol": "!=",
+    "action": "SYM_SEC_INDUS"
+  }
+]

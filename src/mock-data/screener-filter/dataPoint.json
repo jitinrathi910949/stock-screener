@@ -1,0 +1,2171 @@
+[
+  {
+    "groupedAs": "Measures",
+    "name": "Number",
+    "action": "SHOW_NUM",
+    "templateValue": "",
+    "templateValType": "ONLY_NUMBER"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "% Change",
+    "action": "SHOW_CANDLE",
+    "templateValue": "\"close - 1 candle ago close / 1 candle ago close * 100\"",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "VWAP",
+    "action": "SHOW_CANDLE",
+    "templateValue": "VWAP",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "Symbol",
+    "action": "SYM_SEC_INDUS",
+    "templateValue": "Symbol",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "Industry",
+    "action": "SYM_SEC_INDUS",
+    "templateValue": "Industry",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "Sector",
+    "action": "SYM_SEC_INDUS",
+    "templateValue": "Sector",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "Marketcapname",
+    "action": "SHOW_CANDLE",
+    "templateValue": "Marketcapname",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "Open",
+    "action": "SHOW_CANDLE",
+    "templateValue": "Open",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "High",
+    "action": "SHOW_CANDLE",
+    "templateValue": "High",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "Low",
+    "action": "SHOW_CANDLE",
+    "templateValue": "Low",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "Close",
+    "action": "SHOW_CANDLE",
+    "templateValue": "Close",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "Volume",
+    "action": "SHOW_CANDLE",
+    "templateValue": "Volume",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "HA-Open (Heikin-Ashi)",
+    "action": "SHOW_CANDLE",
+    "templateValue": "HA-Open",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "HA-High (Heikin-Ashi)",
+    "action": "SHOW_CANDLE",
+    "templateValue": "HA-High",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "HA-Low (Heikin-Ashi)",
+    "action": "SHOW_CANDLE",
+    "templateValue": "HA-Low",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "HA-Close (Heikin-Ashi)",
+    "action": "SHOW_CANDLE",
+    "templateValue": "HA-Close",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Stock Attributes",
+    "name": "FnO lot Size",
+    "action": "SHOW_CANDLE",
+    "templateValue": "FnO lot size",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Sma(Simple)",
+    "value": "Sma",
+    "action": "SHOW_SMA",
+    "templateValue": "Sma",
+    "templateValType": "BRACKET_INDICE_COMMA_NUMBER"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Ema(Exponential)",
+    "value": "Ema",
+    "action": "SHOW_SMA",
+    "templateValue": "Ema",
+    "templateValType": "BRACKET_INDICE_COMMA_NUMBER"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Wma(Weighted)",
+    "action": "SHOW_SMA",
+    "value": "Wma",
+    "templateValue": "Wma",
+    "templateValType": "BRACKET_INDICE_COMMA_NUMBER"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Tma(Triangular)",
+    "value": "Tma",
+    "action": "SHOW_SMA",
+    "templateValue": "Tma",
+    "templateValType": "BRACKET_INDICE_COMMA_NUMBER"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Tema(Triple EMA)",
+    "value": "Tema",
+    "action": "SHOW_SMA",
+    "templateValue": "Tema",
+    "templateValType": "BRACKET_INDICE_COMMA_NUMBER"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Hma(Hull moving average)",
+    "value": "Hma",
+    "action": "SHOW_SMA",
+    "templateValue": "",
+    "templateValType": "HMA_EVAL"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Vwma(Volume-weightedavg)",
+    "value": "Vwma",
+    "action": "SHOW_RSI",
+    "templateValue": "",
+    "templateValType": "VWMA_EVAL"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Std(Standard Deviation)",
+    "value": "Std",
+    "action": "SHOW_SMA",
+    "templateValue": "Std",
+    "templateValType": "BRACKET_INDICE_COMMA_NUMBER"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Sum(total for the given period)",
+    "value": "Sum",
+    "action": "SHOW_SMA",
+    "templateValue": "Sum",
+    "templateValType": "BRACKET_INDICE_COMMA_NUMBER"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Parabolic Sar",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Parabolic Sar",
+    "templateValue": "Parabolic Sar",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "0.02",
+    "defaultNumVal2": "0.02",
+    "defaultNumVal3": "0.2"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Upper Bollinger band",
+    "action": "SHOW_DOUBLE_NUM",
+    "value": "Upper Bollinger band",
+    "templateValue": "Upper Bollinger band",
+    "templateValType": "BRACKET_DOUBLE_COMMA_NUMBER",
+    "defaultNumVal1": "20",
+    "defaultNumVal2": "2"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Lower Bollinger band",
+    "action": "SHOW_DOUBLE_NUM",
+    "value": "Lower Bollinger band",
+    "templateValue": "Lower Bollinger band",
+    "templateValType": "BRACKET_DOUBLE_COMMA_NUMBER",
+    "defaultNumVal1": "20",
+    "defaultNumVal2": "2"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Supertrend",
+    "action": "SHOW_DOUBLE_NUM",
+    "value": "Supertrend",
+    "templateValue": "Supertrend",
+    "templateValType": "BRACKET_DOUBLE_COMMA_NUMBER",
+    "defaultNumVal1": "20",
+    "defaultNumVal2": "2"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Ichimoku Base Line",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Ichimoku Base Line",
+    "templateValue": "Ichimoku Base Line",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "9",
+    "defaultNumVal2": "26",
+    "defaultNumVal3": "52"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Ichimoku Conversion Line",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Ichimoku Conversion Line",
+    "templateValue": "Ichimoku Conversion Line",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "9",
+    "defaultNumVal2": "26",
+    "defaultNumVal3": "52"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Ichimoku Span A",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Ichimoku Span A",
+    "templateValue": "Ichimoku Span A",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "9",
+    "defaultNumVal2": "26",
+    "defaultNumVal3": "52"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Ichimoku Span B",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Ichimoku Span B",
+    "templateValue": "Ichimoku Span B",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "9",
+    "defaultNumVal2": "26",
+    "defaultNumVal3": "52"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Ichimoku Cloud Top",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Ichimoku Cloud Top",
+    "templateValue": "Ichimoku Cloud Top",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "9",
+    "defaultNumVal2": "26",
+    "defaultNumVal3": "52"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Ichimoku Cloud Bottom",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Ichimoku Cloud Bottom",
+    "templateValue": "Ichimoku Cloud Bottom",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "9",
+    "defaultNumVal2": "26",
+    "defaultNumVal3": "52"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "AccDist (Accumulation/Distribution)",
+    "value": "AccDist",
+    "action": "SHOW_CANDLE",
+    "templateValue": "AccDist",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Rsi (Relative)",
+    "value": "Rsi",
+    "action": "SHOW_RSI",
+    "templateValue": "rsi",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "StochRsi",
+    "value": "StochRsi",
+    "action": "SHOW_RSI",
+    "templateValue": "StochRsi",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Cci",
+    "value": "Cci",
+    "action": "SHOW_RSI",
+    "templateValue": "Cci",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Cmf",
+    "value": "Cmf",
+    "action": "SHOW_RSI",
+    "templateValue": "Cmf",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "MFi",
+    "value": "MFi",
+    "action": "SHOW_RSI",
+    "templateValue": "MFi",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "OBV(On Balance Volume)",
+    "value": "OBV",
+    "action": "SHOW_CANDLE",
+    "templateValue": "OBV",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Williams %R",
+    "value": "Williams %R",
+    "action": "SHOW_RSI",
+    "templateValue": "Williams %R",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Bollinger Bands %b",
+    "action": "SHOW_DOUBLE_NUM",
+    "value": "Bollinger Bands %b",
+    "templateValue": "",
+    "templateValType": "BOLLINGER_BANDS",
+    "defaultNumVal1": "20",
+    "defaultNumVal2": "2"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Intraday Intensity",
+    "action": "SHOW_CANDLE",
+    "value": "Intraday Intensity",
+    "templateValue": "\"( ( (2 * close) - high - low ) / ( high-low * volume ) )\"",
+    "templateValType": "SIMPLE"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Force Index",
+    "action": "SHOW_RSI",
+    "value": "Force Index",
+    "templateValue": "",
+    "templateValType": "FORCE_INDEX",
+    "defaultNumVal": "13"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "St/Schaff Trend Cycle)",
+    "action": "SHOW_FOUR_NUM",
+    "value": "Stc",
+    "templateValue": "Stc",
+    "templateValType": "BRACKET_FOUR_COMMA_NUMBER",
+    "defaultNumVal1": "10",
+    "defaultNumVal2": "23",
+    "defaultNumVal3": "50",
+    "defaultNumVal4": "0.5"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Macd Line",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Macd Line",
+    "templateValue": "Macd Line",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "26",
+    "defaultNumVal2": "12",
+    "defaultNumVal3": "9"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Macd Signal",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Macd Signal",
+    "templateValue": "Macd Signal",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "26",
+    "defaultNumVal2": "12",
+    "defaultNumVal3": "9"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Macd Histogram",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Macd Histogram",
+    "templateValue": "Macd Histogram",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "26",
+    "defaultNumVal2": "12",
+    "defaultNumVal3": "9"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "ADX",
+    "value": "ADX",
+    "action": "SHOW_RSI",
+    "templateValue": "ADX",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "ADX DI Positive",
+    "value": "ADX DI Positive",
+    "action": "SHOW_RSI",
+    "templateValue": "ADX DI Positive",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "ADX DI Negative",
+    "value": "ADX DI Negative",
+    "action": "SHOW_RSI",
+    "templateValue": "ADX DI Negative",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "True Range",
+    "value": "True Range",
+    "action": "SHOW_RSI",
+    "templateValue": "True Range",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Avg True Range(ATR)",
+    "value": "Avg True Range",
+    "action": "SHOW_RSI",
+    "templateValue": "Avg True Range",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "14"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Aroon Up",
+    "value": "Aroon Up",
+    "action": "SHOW_RSI",
+    "templateValue": "Aroon Up",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "25"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Aroon Down",
+    "value": "Aroon Down",
+    "action": "SHOW_RSI",
+    "templateValue": "Aroon Down",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "25"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Aroon Osc",
+    "value": "Aroon Osc",
+    "action": "SHOW_RSI",
+    "templateValue": "Aroon Osc",
+    "templateValType": "BRACKET_NUMBER",
+    "defaultNumVal": "25"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Stochastic",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Stochastic",
+    "templateValue": "",
+    "templateValType": "STOCHASTIC",
+    "defaultNumVal1": "10",
+    "defaultNumVal2": "3",
+    "defaultNumVal3": "3"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Stochastic %d",
+    "action": "SHOW_FOUR_NUM",
+    "value": "Stochastic %d",
+    "templateValue": "",
+    "templateValType": "STOCHASTIC_PERCENT_D",
+    "defaultNumVal1": "10",
+    "defaultNumVal2": "3",
+    "defaultNumVal3": "3",
+    "defaultNumVal4": "3"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Smi %K (Stochastic Momentum Index)",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "Smi %K",
+    "templateValue": "",
+    "templateValType": "SMI_PERCENT_K",
+    "defaultNumVal1": "10",
+    "defaultNumVal2": "3",
+    "defaultNumVal3": "3"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Smi %D (Stochastic Momentum Index)",
+    "action": "SHOW_FOUR_NUM",
+    "value": "Smi %D",
+    "templateValue": "",
+    "templateValType": "SMI_PERCENT_D",
+    "defaultNumVal1": "10",
+    "defaultNumVal2": "3",
+    "defaultNumVal3": "3",
+    "defaultNumVal4": "3"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Slow Stochastic %K",
+    "action": "SHOW_DOUBLE_NUM",
+    "value": "Slow Stochastic %K",
+    "templateValue": "slow stochastic %k",
+    "templateValType": "BRACKET_DOUBLE_COMMA_NUMBER",
+    "defaultNumVal1": "14",
+    "defaultNumVal2": "3"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Slow Stochastic %D",
+    "action": "SHOW_DOUBLE_NUM",
+    "value": "Slow Stochastic %D",
+    "templateValue": "slow stochastic %d",
+    "templateValType": "BRACKET_DOUBLE_COMMA_NUMBER",
+    "defaultNumVal1": "14",
+    "defaultNumVal2": "3"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Fast Stochastic %K",
+    "action": "SHOW_DOUBLE_NUM",
+    "value": "Slow Stochastic %K",
+    "templateValue": "slow stochastic %k",
+    "templateValType": "BRACKET_DOUBLE_COMMA_NUMBER",
+    "defaultNumVal1": "14",
+    "defaultNumVal2": "3"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "Fast Stochastic %D",
+    "action": "SHOW_DOUBLE_NUM",
+    "value": "Slow Stochastic %D",
+    "templateValue": "slow stochastic %d",
+    "templateValType": "BRACKET_DOUBLE_COMMA_NUMBER",
+    "defaultNumVal1": "14",
+    "defaultNumVal2": "3"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "WaveTrend",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "WaveTrend",
+    "templateValue": "wavetrend",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "10",
+    "defaultNumVal2": "21",
+    "defaultNumVal3": "4"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "WaveTrend Trigger",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "WaveTrend Trigger",
+    "templateValue": "wavetrend trigger",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "10",
+    "defaultNumVal2": "21",
+    "defaultNumVal3": "4"
+  },
+  {
+    "groupedAs": "Technical Points",
+    "name": "WaveTrend Momentum",
+    "action": "SHOW_TRIPLE_NUM",
+    "value": "WaveTrend Momentum",
+    "templateValue": "wavetrend momentum",
+    "templateValType": "BRACKET_TRIPLE_COMMA_NUMBER",
+    "defaultNumVal1": "10",
+    "defaultNumVal2": "21",
+    "defaultNumVal3": "4"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Bracket (value)",
+    "action": "BRACKET_SUB_INDICE",
+    "value": "Bracket",
+    "templateValue": "",
+    "templateValType": "BRACKET_SUB_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Min (duration, value)",
+    "action": "SHOW_MIN_MAX",
+    "value": "Min",
+    "templateValue": "min",
+    "templateValType": "BRACKET_NUMBER_COMMA_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Max (duration, value)",
+    "action": "SHOW_MIN_MAX",
+    "value": "Max",
+    "templateValue": "max",
+    "templateValType": "BRACKET_NUMBER_COMMA_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Count (duration, filter)",
+    "action": "SHOW_MIN_MAX",
+    "value": "Count",
+    "templateValue": "count",
+    "templateValType": "COUNT"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Countstreak (duration, filter)",
+    "action": "SHOW_MIN_MAX",
+    "value": "Countstreak",
+    "templateValue": "countstreak",
+    "templateValType": "COUNT"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Abs (value)",
+    "action": "BRACKET_SUB_INDICE",
+    "value": "Abs",
+    "templateValue": "abs",
+    "templateValType": "BRACKET_SUB_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Ceil (value)",
+    "action": "BRACKET_SUB_INDICE",
+    "value": "Ceil",
+    "templateValue": "ceil",
+    "templateValType": "BRACKET_SUB_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Floor (value)",
+    "action": "BRACKET_SUB_INDICE",
+    "value": "Floor",
+    "templateValue": "floor",
+    "templateValType": "BRACKET_SUB_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Round (value)",
+    "action": "BRACKET_SUB_INDICE",
+    "value": "Round",
+    "templateValue": "round",
+    "templateValType": "BRACKET_SUB_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Square (value)",
+    "action": "BRACKET_SUB_INDICE",
+    "value": "Square",
+    "templateValue": "square",
+    "templateValType": "BRACKET_SUB_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Square root (value)",
+    "action": "BRACKET_SUB_INDICE",
+    "value": "Square root",
+    "templateValue": "square root",
+    "templateValType": "BRACKET_SUB_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Log (value)",
+    "action": "BRACKET_SUB_INDICE",
+    "value": "Log",
+    "templateValue": "log",
+    "templateValType": "BRACKET_SUB_INDICE"
+  },
+  {
+    "groupedAs": "Math Functions",
+    "name": "Log10 (value)",
+    "action": "BRACKET_SUB_INDICE",
+    "value": "Log10",
+    "templateValue": "log10",
+    "templateValType": "BRACKET_SUB_INDICE"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Pe Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Pe Ratio",
+    "templateValue": "peRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Peg Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Peg Ratio",
+    "templateValue": "pegRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Payout Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Payout Ratio",
+    "templateValue": "payoutRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Current Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Current Ratio",
+    "templateValue": "currentRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Quick Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Quick Ratio",
+    "templateValue": "quickRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash Ratio",
+    "templateValue": "cashRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Days of Sales Outstanding",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Days of Sales Outstanding",
+    "templateValue": "daysOfSalesOutstanding"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Days of Inventory Outstanding",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Days of Inventory Outstanding",
+    "templateValue": "daysOfInventoryOutstanding"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Operating Cycle",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Operating Cycle",
+    "templateValue": "operatingCycle"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Days of Payables Outstanding",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Days of Payables Outstanding",
+    "templateValue": "daysOfPayablesOutstanding"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash Conversion Cycle",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash Conversion Cycle",
+    "templateValue": "cashConversionCycle"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Gross Profit Margin",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Gross Profit Margin",
+    "templateValue": "grossProfitMargin"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Operating Profit Margin",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Operating Profit Margin",
+    "templateValue": "operatingProfitMargin"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Pretax Profit Margin",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Pretax Profit Margin",
+    "templateValue": "pretaxProfitMargin"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Profit Margin",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Profit Margin",
+    "templateValue": "netProfitMargin"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Effective Tax Rate",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Effective Tax Rate",
+    "templateValue": "effectiveTaxRate"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Return on Assets",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Return on Assets",
+    "templateValue": "returnOnAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Return on Equity",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Return on Equity",
+    "templateValue": "returnOnEquity"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Return on Capital Employed",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Return on Capital Employed",
+    "templateValue": "returnOnCapitalEmployed"
+  },
+
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Income per Ebt",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Income per Ebt",
+    "templateValue": "netIncomePerEBT"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Ebt per Ebit",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Ebt per Ebit",
+    "templateValue": "ebtPerEbit"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Ebit per Revenue",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Ebit per Revenue",
+    "templateValue": "ebitPerRevenue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Debt Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Debt Ratio",
+    "templateValue": "debtRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Debt Equity Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Debt Equity Ratio",
+    "templateValue": "debtEquityRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Long Term Debt to Capitalization",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Long Term Debt to Capitalization",
+    "templateValue": "longTermDebtToCapitalization"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Debt to Capitalization",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Debt to Capitalization",
+    "templateValue": "totalDebtToCapitalization"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Interest Coverage",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Interest Coverage",
+    "templateValue": "interestCoverage"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash Flow to Debt Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash Flow to Debt Ratio",
+    "templateValue": "cashFlowToDebtRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Company Equity Multiplier",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Company Equity Multiplier",
+    "templateValue": "companyEquityMultiplier"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Receivables Turnover",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Receivables Turnover",
+    "templateValue": "receivablesTurnover"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Payables Turnover",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Payables Turnover",
+    "templateValue": "payablesTurnover"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Inventory Turnover",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Inventory Turnover",
+    "templateValue": "inventoryTurnover"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Fixed Asset Turnover",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Fixed Asset Turnover",
+    "templateValue": "fixedAssetTurnover"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Asset Turnover",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Asset Turnover",
+    "templateValue": "assetTurnover"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Operating Cash Flow per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Operating Cash Flow per Share",
+    "templateValue": "operatingCashFlowPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Free Cash Flow per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Free Cash Flow per Share",
+    "templateValue": "freeCashFlowPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash per Share",
+    "templateValue": "cashPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Operating Cash Flow Sales Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Operating Cash Flow Sales Ratio",
+    "templateValue": "operatingCashFlowSalesRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Free Cash Flow Operating Cash Flow Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Free Cash Flow Operating Cash Flow Ratio",
+    "templateValue": "freeCashFlowOperatingCashFlowRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash Flow Coverage Ratios",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash Flow Coverage Ratios",
+    "templateValue": "cashFlowCoverageRatios"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Short Term Coverage Ratios",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Short Term Coverage Ratios",
+    "templateValue": "shortTermCoverageRatios"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Capital Expenditure Coverage Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Capital Expenditure Coverage Ratio",
+    "templateValue": "capitalExpenditureCoverageRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Dividend Paid and Capex Coverage Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Dividend Paid and Capex Coverage Ratio",
+    "templateValue": "dividendPaidAndCapexCoverageRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price Book Value Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Price Book Value Ratio",
+    "templateValue": "priceBookValueRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price to Book Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Price to Book Ratio",
+    "templateValue": "priceToBookRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price Earnings Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Price Earnings Ratio",
+    "templateValue": "priceEarningsRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price to Free Cash Flows Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Price to Free Cash Flows Ratio",
+    "templateValue": "priceToFreeCashFlowsRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price to Operating Cash Flows Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Price to Operating Cash Flows Ratio",
+    "templateValue": "priceToOperatingCashFlowsRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price Cash Flow Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "priceCashFlowRatio",
+    "templateValue": "priceCashFlowRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price Earnings to Growth Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Price Earnings to Growth Ratio",
+    "templateValue": "priceEarningsToGrowthRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price Sales Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Price Sales Ratio",
+    "templateValue": "priceSalesRatio"
+  },
+
+  {
+    "groupedAs": "Fundamental",
+    "name": "Enterprise Value Multiple",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Enterprise Value Multiple",
+    "templateValue": "enterpriseValueMultiple"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price Fair Value",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Price Fair Value",
+    "templateValue": "priceFairValue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Dividend per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Dividend per Share",
+    "templateValue": "dividendPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Revenue Per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Revenue Per Share",
+    "templateValue": "revenuePerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Income Per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Income Per Share",
+    "templateValue": "netIncomePerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Operating Cash Flow Per Share ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Operating Cash Flow Per Share ",
+    "templateValue": "operatingCashFlowPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Free Cash Flow Per Share ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Free Cash Flow Per Share ",
+    "templateValue": "freeCashFlowPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash Per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash Per Share",
+    "templateValue": "cashPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Book Value Per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Book Value Per Share",
+    "templateValue": "bookValuePerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Tangible Book Value Per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Tangible Book Value Per Share",
+    "templateValue": "tangibleBookValuePerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Share Holders Equity Per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Share Holders Equity Per Share",
+    "templateValue": "shareholdersEquityPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Interest Debt Per Share",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Interest Debt Per Share",
+    "templateValue": "interestDebtPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Market Cap",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Market Cap",
+    "templateValue": "marketCap"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Enterprise Value",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Enterprise Value",
+    "templateValue": "enterpriseValue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Price To Sales Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Price To Sales Ratio",
+    "templateValue": "priceToSalesRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Pocf Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Pocf Ratio",
+    "templateValue": "pocfratio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Pfcf Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Pfcf Ratio",
+    "templateValue": "pfcfRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Ptb Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Ptb Ratio",
+    "templateValue": "ptbRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Pb Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Pb Ratio",
+    "templateValue": "pbRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Ev To Sales ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Ev To Sales ",
+    "templateValue": "evToSales"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Enterprise Value Over Ebitda",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Enterprise Value Over Ebitda",
+    "templateValue": "enterpriseValueOverEBITDA"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Ev To Operating Cash Flow ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Ev To Operating Cash Flow ",
+    "templateValue": "evToOperatingCashFlow"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Ev To Free Cash Flow ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Ev To Free Cash Flow ",
+    "templateValue": "evToFreeCashFlow"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Earnings Yield ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Earnings Yield ",
+    "templateValue": "earningsYield"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Debt To Equity ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Debt To Equity ",
+    "templateValue": "debtToEquity"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Free Cash Flow Yield ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Free Cash Flow Yield ",
+    "templateValue": "freeCashFlowYield"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Debt To Assets ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Debt To Assets ",
+    "templateValue": "debtToAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Debt To Ebitda ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Debt To Ebitda ",
+    "templateValue": "netDebtToEBITDA"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Current Ratio ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Current Ratio ",
+    "templateValue": "currentRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Interest Coverage ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Interest Coverage ",
+    "templateValue": "interestCoverage"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Income Quality ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Income Quality ",
+    "templateValue": "incomeQuality"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Dividend Yield",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Dividend Yield ",
+    "templateValue": "dividendYield"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Dividend Yield Percentage ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Dividend Yield Percentage ",
+    "templateValue": "dividendYieldPercentage"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Payout Ratio ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Payout Ratio ",
+    "templateValue": "payoutRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Sales General And Administrative To Revenue ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Sales General And Administrative To Revenue ",
+    "templateValue": "salesGeneralAndAdministrativeToRevenue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Research And Development To Revenue ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Research And Development To Revenue ",
+    "templateValue": "researchAndDevelopementToRevenue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Intangibles To Total Assets ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Intangibles To Total Assets ",
+    "templateValue": "intangiblesToTotalAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Capex To Operating Cash Flow",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Capex To Operating Cash Flow",
+    "templateValue": "capexToOperatingCashFlow"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Capex To Revenue",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Capex To Revenue",
+    "templateValue": "capexToRevenue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Capex To Depreciation",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Capex To Depreciation ",
+    "templateValue": "capexToDepreciation"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Stock Based Compensation To Revenue ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Stock Based Compensation To Revenue ",
+    "templateValue": "stockBasedCompensationToRevenue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Graham Number ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Graham Number ",
+    "templateValue": "grahamNumber"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Roic",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Roic",
+    "templateValue": "roic"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Return On Tangible Assets ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Return On Tangible Assets ",
+    "templateValue": "returnOnTangibleAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Graham Net Net ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Graham Net Net ",
+    "templateValue": "grahamNetNet"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Working Capital",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Working Capital",
+    "templateValue": "workingCapital"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Tangible Asset Value ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Tangible Asset Value ",
+    "templateValue": "tangibleAssetValue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Current Asset Value ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Current Asset Value ",
+    "templateValue": "netCurrentAssetValue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Invested Capital ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Invested Capital ",
+    "templateValue": "investedCapital"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Average Receivables ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Average Receivables ",
+    "templateValue": "averageReceivables"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Average Payables ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Average Payables",
+    "templateValue": "averagePayables"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Average Inventory ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Average Inventory ",
+    "templateValue": "averageInventory"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Days Sales Outstanding ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Days Sales Outstanding ",
+    "templateValue": "daysSalesOutstanding"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Days Payables Outstanding",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Days Payables Outstanding ",
+    "templateValue": "daysPayablesOutstanding"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Days Of Inventory On Hand ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Days Of Inventory On Hand ",
+    "templateValue": "daysOfInventoryOnHand"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Receivables Turnover ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Receivables Turnover ",
+    "templateValue": "receivablesTurnover"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Payables Turnover ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Payables Turnover ",
+    "templateValue": "payablesTurnover"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Inventory Turnover ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Inventory Turnover ",
+    "templateValue": "inventoryTurnover"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Roe ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Roe ",
+    "templateValue": "roe"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Capex Per Share ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Capex Per Share ",
+    "templateValue": "capexPerShare"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Dividend Per Share ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Dividend Per Share ",
+    "templateValue": "dividendPerShare"
+  },
+
+  {
+    "groupedAs": "Fundamental",
+    "name": "Revenue",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Revenue",
+    "templateValue": "revenue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cost Of Revenue",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cost Of Revenue",
+    "templateValue": "costOfRevenue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Gross Profit",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Gross Profit",
+    "templateValue": "grossProfit"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Gross Profit Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Gross Profit Ratio",
+    "templateValue": "grossProfitRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Research And Development Expenses",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Research And Development Expenses",
+    "templateValue": "ResearchAndDevelopmentExpenses"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "General And Administrative Expenses",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "General And Administrative Expenses",
+    "templateValue": "GeneralAndAdministrativeExpenses"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Selling And Marketing Expenses",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Selling And Marketing Expenses",
+    "templateValue": "SellingAndMarketingExpenses"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Expenses",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Expenses",
+    "templateValue": "otherExpenses"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Operating Expenses",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Operating Expenses",
+    "templateValue": "operatingExpenses"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cost And Expenses",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cost And Expenses",
+    "templateValue": "costAndExpenses"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Interest Expense",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Interest Expense",
+    "templateValue": "interestExpense"
+  },
+
+  {
+    "groupedAs": "Fundamental",
+    "name": "Ebitda",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Ebitda",
+    "templateValue": "EBITDA"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Ebitda Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Ebitda Ratio",
+    "templateValue": "EBITDARatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Operating Income",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Operating Income",
+    "templateValue": "operatingIncome"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Operating Income Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Operating Income Ratio",
+    "templateValue": "operatingIncomeRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Other Income Expenses Net",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Other Income Expenses Net",
+    "templateValue": "totalOtherIncomeExpensesNet"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Income Before Tax",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Income Before Tax",
+    "templateValue": "incomeBeforeTax"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Income Before Tax Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Income Before Tax Ratio",
+    "templateValue": "incomeBeforeTaxRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Income Tax Expense",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Income Tax Expense",
+    "templateValue": "incomeTaxExpense"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Debt To Market Cap ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Debt To Market Cap ",
+    "templateValue": "debtToMarketCap"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Income Ratio",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Income Ratio",
+    "templateValue": "netIncomeRatio"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Eps",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Eps",
+    "templateValue": "EPS"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Eps Diluted",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Eps Diluted",
+    "templateValue": "EPSDiluted"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Weighted Average Shs Out",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Weighted Average Shs Out",
+    "templateValue": "weightedAverageShsOut"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Weighted Average Shs Out Dil",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Weighted Average Shs Out Dil",
+    "templateValue": "weightedAverageShsOutDil"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash and Cash Equivalents",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash and Cash Equivalents",
+    "templateValue": "cashAndCashEquivalents"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Short Term Investments",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Short Term Investments",
+    "templateValue": "shortTermInvestments"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash and Short Term Investments",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash and Short Term Investments",
+    "templateValue": "cashAndShortTermInvestments"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Receivables",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Receivables",
+    "templateValue": "netReceivables"
+  },
+
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Current Assets",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Current Assets",
+    "templateValue": "otherCurrentAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Current Assets",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Current Assets",
+    "templateValue": "totalCurrentAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Property Plant Equipment Net",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Property Plant Equipment Net",
+    "templateValue": "propertyPlantEquipmentNet"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Goodwill",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Goodwill",
+    "templateValue": "goodwill"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Intangible Assets",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Intangible Assets",
+    "templateValue": "intangibleAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Good Will and Intangible Assets",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Good Will and Intangible Assets",
+    "templateValue": "goodwillAndIntangibleAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Long Term Investments",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Long Term Investments",
+    "templateValue": "longTermInvestments"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Tax Assets",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Tax Assets",
+    "templateValue": "taxAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Non Current Assets",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Non Current Assets",
+    "templateValue": "otherNonCurrentAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Non Current Assets",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Non Current Assets",
+    "templateValue": "totalNonCurrentAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Assets",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Assets",
+    "templateValue": "otherAssets"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Assets ",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Assets",
+    "templateValue": "totalAssets"
+  },
+
+  {
+    "groupedAs": "Fundamental",
+    "name": "Short Term Debt",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Short Term Debt",
+    "templateValue": "shortTermDebt"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Tax Payables",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Tax Payables",
+    "templateValue": "taxPayables"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Deferred Revenue",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Deferred Revenue",
+    "templateValue": "deferredRevenue"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Current Liabilities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Current Liabilities",
+    "templateValue": "otherCurrentLiabilities"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Current Liabilities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Current Liabilities",
+    "templateValue": "totalCurrentLiabilities"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Long Term Debt",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Long Term Debt",
+    "templateValue": "longTermDebt"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Deferred Revenue Non Current",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Deferred Revenue Non Current",
+    "templateValue": "deferredRevenueNonCurrent"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Account Payables",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Account Payables",
+    "templateValue": "accountPayables"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Deferrred Tax Liabilities Non Current",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Deferrred Tax Liabilities Non Current",
+    "templateValue": "deferrredTaxLiabilitiesNonCurrent"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Non Current Liabilities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Non Current Liabilities",
+    "templateValue": "otherNonCurrentLiabilities"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Non Current Liabilities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Non Current Liabilities",
+    "templateValue": "totalNonCurrentLiabilities"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Liabilities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Liabilities",
+    "templateValue": "otherLiabilities"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Liabilities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Liabilities",
+    "templateValue": "totalLiabilities"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Common Stock",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Common Stock",
+    "templateValue": "commonStock"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "retained Earnings",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "retained Earnings",
+    "templateValue": "retainedEarnings"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Accumulated Other Comprehensive Income Loss",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Accumulated Other Comprehensive Income Loss",
+    "templateValue": "accumulatedOtherComprehensiveIncomeLoss"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Total Stockholders Equity",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Total Stockholders Equity",
+    "templateValue": "othertotalStockholdersEquity"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Stockholders Equity",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Stockholders Equity",
+    "templateValue": "totalStockholdersEquity"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Liabilities And Stockholders Equity",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Liabilities And Stockholders Equity",
+    "templateValue": "totalLiabilitiesAndStockholdersEquity"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Investments",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Investments",
+    "templateValue": "totalInvestments"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Total Debt",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Total Debt",
+    "templateValue": "totalDebt"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Debt",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Debt",
+    "templateValue": "netDebt"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Income",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Income",
+    "templateValue": "netIncome"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Depreciation And Amortization",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Depreciation And Amortization",
+    "templateValue": "depreciationAndAmortization"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Deferred Income Tax",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Deferred Income Tax",
+    "templateValue": "deferredIncomeTax"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Stock Based Compensation",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Stock Based Compensation",
+    "templateValue": "stockBasedCompensation"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Change In Working Capital",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Change In Working Capital",
+    "templateValue": "changeInWorkingCapital"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Accounts Receivables",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Accounts Receivables",
+    "templateValue": "accountsReceivables"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Inventory",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Inventory",
+    "templateValue": "inventory"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Working Capital",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Working Capital",
+    "templateValue": "otherWorkingCapital"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Non Cash Items",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Non Cash Items",
+    "templateValue": "otherNonCashItems"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Cash Provided By Operating Activites",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Cash Provided By Operating Activites",
+    "templateValue": "netCashProvidedByOperatingActivites"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Investments In Property Plant And Equipment",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Investments In Property Plant And Equipment",
+    "templateValue": "investmentsInPropertyPlantAndEquipment"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Acquisitions Net",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Acquisitions Net",
+    "templateValue": "acquisitionsNet"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Purchases Of Investments",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Purchases Of Investments",
+    "templateValue": "purchasesOfInvestments"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Sales Maturities Of Investments",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Sales Maturities Of Investments",
+    "templateValue": "salesMaturitiesOfInvestments"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Investing Activities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Working Capital",
+    "templateValue": "otherInvestingActivites"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Cash Used For Investing Activities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Cash Used For Investing Activities",
+    "templateValue": "netCashUsedForInvestingActivites"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Debt Repayment",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Debt Repayment",
+    "templateValue": "debtRepayment"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Common Stock Issued",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Common Stock Issued",
+    "templateValue": "commonStockIssued"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Common Stock Repurchased",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Common Stock Repurchased",
+    "templateValue": "commonStockRepurchased"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Dividends Paid",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Dividends Paid",
+    "templateValue": "dividendsPaid"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Other Financing Activities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Other Financing Activities",
+    "templateValue": "otherFinancingActivites"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Cash Used Provided By Financing Activities",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Cash Used Provided By Financing Activities",
+    "templateValue": "netCashUsedProvidedByFinancingActivities"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Effect Of Forex Changes On Cash",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Effect Of Forex Changes On Cash",
+    "templateValue": "effectOfForexChangesOnCash"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Net Change In Cash",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Net Change In Cash",
+    "templateValue": "netChangeInCash"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash At End Of Period",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash At End Of Period",
+    "templateValue": "cashAtEndOfPeriod"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Cash At Beginning Of Period",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Cash At Beginning Of Period",
+    "templateValue": "cashAtBeginningOfPeriod"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Operating Cash Flow",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Operating Cash Flow",
+    "templateValue": "operatingCashFlow"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Capital Expenditure",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Capital Expenditure",
+    "templateValue": "capitalExpenditure"
+  },
+  {
+    "groupedAs": "Fundamental",
+    "name": "Free Cash Flow",
+    "action": "FUNDAMENTAL_OFFSET",
+    "value": "Free Cash Flow",
+    "templateValue": "freeCashFlow"
+  }
+]

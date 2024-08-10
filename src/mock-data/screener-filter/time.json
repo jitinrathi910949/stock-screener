@@ -1,0 +1,64 @@
+[
+    {
+        "groupedAs": "Latest Candles",
+        "name": "0 (latest candle)",
+        "action": "NONE",
+        "value": "0"
+    },
+    {
+        "groupedAs": "Latest Candles",
+        "name": "-1 (previous candle)",
+        "action": "NONE",
+        "value": "-1"
+    },
+    {
+        "groupedAs": "Latest Candles",
+        "name": "-2",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Latest Candles",
+        "name": "-3",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Latest Candles",
+        "name": "-4",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Latest Candles",
+        "name": "-5",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Latest Candles",
+        "name": "-6",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Latest Candles",
+        "name": "-7",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Latest Candles",
+        "name": "-8",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Latest Candles",
+        "name": "n candles ago",
+        "action": "NUMBER_OFFSET_DAYS"
+    },
+    {
+        "groupedAs": "Days nth candles",
+        "name": "=1 (first candle)",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Days nth candles",
+        "name": "=2 (second candle)",
+        "action": "NONE"
+    }
+]

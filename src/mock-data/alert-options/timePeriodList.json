@@ -1,0 +1,22 @@
+[
+  {
+    "key": "minute",
+    "value": "minute",
+    "label": "Minute"
+  },
+  {
+    "key": "hour",
+    "value": "hour",
+    "label": "Hour"
+  },
+  {
+    "key": "day",
+    "value": "day",
+    "label": "Day"
+  },
+  {
+    "key": "week",
+    "value": "week",
+    "label": "Week"
+  }
+]

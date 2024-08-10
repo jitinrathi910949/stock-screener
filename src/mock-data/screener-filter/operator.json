@@ -1,0 +1,74 @@
+[
+  {
+    "groupedAs": "Arithmetic Operations",
+    "name": "+",
+    "symbol": "+",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Arithmetic Operations",
+    "name": "-",
+    "symbol": "-",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Arithmetic Operations",
+    "name": "*",
+    "symbol": "*",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Arithmetic Operations",
+    "name": "/",
+    "symbol": "/",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Comparison Operations",
+    "name": "Equals",
+    "symbol": "=",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Comparison Operations",
+    "name": "Not equals",
+    "symbol": "!=",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Comparison Operations",
+    "name": "Greater than",
+    "symbol": ">",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Comparison Operations",
+    "name": "Greater than equal to",
+    "symbol": ">=",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Comparison Operations",
+    "name": "Less than",
+    "symbol": "<",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Comparison Operations",
+    "name": "Less than equal to",
+    "symbol": "<=",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Cross Operations",
+    "name": "Crossed above",
+    "symbol": "crossed_above",
+    "action": "NONE"
+  },
+  {
+    "groupedAs": "Cross Operations",
+    "name": "Crossed below",
+    "symbol": "crossed_below",
+    "action": "NONE"
+  }
+]

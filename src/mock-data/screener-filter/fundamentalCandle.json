@@ -1,0 +1,59 @@
+[
+    {
+        "groupedAs": "",
+        "name": "TTM (Trailing twelve months)",
+        "action": "NONE"
+    },
+
+    {
+        "groupedAs": "Quarterly",
+        "name": "Latest Quarterly",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Quarterly",
+        "name": "1 quarter ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Quarterly",
+        "name": "2 quarters ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Quarterly",
+        "name": "3 quarters ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Quarterly",
+        "name": "n quarters ago",
+        "action": "NUMBER_CANDLES_QUATERLY"
+    },
+    {
+        "groupedAs": "Yearly",
+        "name": "Latest Yearly",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Yearly",
+        "name": "1 year ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Yearly",
+        "name": "2 years ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Yearly",
+        "name": "3 years ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Yearly",
+        "name": "n years ago",
+        "action": "NUMBER_CANDLES_YEARS"
+    }
+
+]

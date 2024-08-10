@@ -1,0 +1,2 @@
+findScanNextApp:
+  component: "@sls-next/serverless-component"

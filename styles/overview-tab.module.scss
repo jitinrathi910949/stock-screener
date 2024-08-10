@@ -1,0 +1,20 @@
+.textCheckbox{
+    span {
+        font-size: 12px;
+        color: black;
+    }
+}
+.gridTable{
+    padding-left: 0px!important;
+    left: 160px;
+    position: relative;
+    .li {
+        padding-left: 0px;
+    }
+    .listItem {
+        border-left: 1px solid black;
+    }
+    .checkboxIcon{
+        margin-right: 0px;
+    }
+}

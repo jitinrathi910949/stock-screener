@@ -1,0 +1,117 @@
+[
+    {
+        "groupedAs": "Intraday Candles",
+        "name": "1 minute",
+        "action": "SHOW_TIME"
+    },
+    {
+        "groupedAs": "Intraday Candles",
+        "name": "2 minute",
+        "action": "SHOW_TIME"
+    },
+    {
+        "groupedAs": "Intraday Candles",
+        "name": "3 minute",
+        "action": "SHOW_TIME"
+    },
+    {
+        "groupedAs": "Intraday Candles",
+        "name": "5 minute",
+        "action": "SHOW_TIME"
+    },
+    {
+        "groupedAs": "Intraday Candles",
+        "name": "10 minute",
+        "action": "SHOW_TIME"
+    },
+    {
+        "groupedAs": "Intraday Candles",
+        "name": "15 minute",
+        "action": "SHOW_TIME"
+    },
+    {
+        "groupedAs": "Intraday Candles",
+        "name": "20 minute",
+        "action": "SHOW_TIME"
+    },
+    {
+        "groupedAs": "Daily Candles",
+        "name": "Latest",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Daily Candles",
+        "name": "1 day ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Daily Candles",
+        "name": "2 days ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Daily Candles",
+        "name": "3 days ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Daily Candles",
+        "name": "n days ago",
+        "action": "NUMBER_CANDLES_DAYS"
+    },
+   
+   
+    {
+        "groupedAs": "Weekly Candles",
+        "name": "Weekly",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Weekly Candles",
+        "name": "1 week ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Weekly Candles",
+        "name": "2 weeks ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Weekly Candles",
+        "name": "3 weeks ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Weekly Candles",
+        "name": "n weeks ago",
+        "action": "NUMBER_CANDLES_WEEKS"
+    },
+
+
+    {
+        "groupedAs": "Quarterly Candles",
+        "name": "Quarterly",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Quarterly Candles",
+        "name": "1 week ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Quarterly Candles",
+        "name": "2 quarter ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Quarterly Candles",
+        "name": "3 quarter ago",
+        "action": "NONE"
+    },
+    {
+        "groupedAs": "Quarterly Candles",
+        "name": "n quarter ago",
+        "action": "NUMBER_CANDLES_WEEKS"
+    }
+
+]
